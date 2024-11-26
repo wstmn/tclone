@@ -1,0 +1,17 @@
+[
+ {
+  "directory": "C:\\Users\\1\\Desktop\\20-11\\tclone",
+  "arguments": [
+   "g++",
+   "-Isrc/include",
+   "-Lsrc/lib",
+   "-o",
+   "main",
+   "main.cpp",
+   "-lmingw32",
+   "-lSDL2main",
+   "-lSDL2"
+  ],
+  "file": "main.cpp"
+ }
+]
