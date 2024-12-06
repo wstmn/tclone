@@ -6,12 +6,14 @@
    "-Isrc/include",
    "-Lsrc/lib",
    "-o",
-   "main",
-   "main.cpp",
+   "build/main",
+   "src/main.cpp",
    "-lmingw32",
    "-lSDL2main",
-   "-lSDL2"
+   "-lSDL2",
+   "-lSDL2_image",
+   "-lSDL2_ttf"
   ],
-  "file": "main.cpp"
+  "file": "src/main.cpp"
  }
 ]
