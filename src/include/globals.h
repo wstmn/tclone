@@ -11,9 +11,12 @@ const int NATIVE_HEIGHT = 180;
 const int SCALE_FACTOR = 4;
 const int SCREEN_WIDTH = NATIVE_WIDTH * SCALE_FACTOR;
 const int SCREEN_HEIGHT = NATIVE_HEIGHT * SCALE_FACTOR;
-const int GRAVITY = 1;
+const int JUMP_HEIGHT = 11;
+const int JUMP_TIME = 1;
+const float JUMP_VELOCITY = 3.5;// The initial velocity when jumping
 
-const int JUMP_HEIGHT = 10;
+const float GRAVITY = 650;// The initial velocity when jumping
+
 
 // Declare global instances of SDL_Window and SDL_Renderer
 extern SDL_Window* gWindow;
@@ -21,6 +24,8 @@ extern SDL_Renderer* gRenderer;
 
 // Declare global sprite clips array
 extern SDL_Rect gSpriteClips[12];
+
+
 
 // Forward declarations of utility functions
 extern bool init();
